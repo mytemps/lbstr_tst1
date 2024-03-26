@@ -1,6 +1,15 @@
 # lbstr_tst1
 
 ## 1. Create DB and import .sql
+
+## 2. Check DB connection settings
+
+In Classes/App.php
+```
+private $MYSQL_Database = "";
+private $MYSQL_Username = "";
+private $MYSQL_Password = "";
+ ```
    
 ## 2. Upload .csv file to /Files directory
 
